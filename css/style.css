@@ -1,0 +1,528 @@
+.hero_top {
+  /* background-image: url(https://spacingtech.com/html/unimo/unimo-ltr/img/slider/slider-text-bg.png); */
+  background-color: #7c9b6b;
+  width: 30%;
+  background-repeat: no-repeat;
+  height: 60%;
+  border-radius: 5px;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.navpos {
+  z-index: 999;
+}
+
+
+.navpos {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+p.hero_font_discount {
+  border: 1px dashed white;
+  padding: 10px 20px;
+  border-radius: 6%;
+  display: inline-block;
+}
+
+h2.hero_font_pakage {
+  font-size: 80px;
+}
+
+p.hero_font_price {
+  font-size: 30px;
+}
+
+.button {
+  background-color: #212529;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+a.button {
+  color: white;
+  text-decoration: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black !important;
+}
+
+.hero_img {
+  position: relative;
+}
+
+.hero_top {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.allinfo {
+  margin: 0 auto;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.card {
+  width: 300px;
+  width: 1000px;
+}
+.card {
+  width: 315px;
+  margin-bottom: 15px;
+}
+
+div#card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
+
+.npbutton {
+  text-align: center;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+button#nxt {
+  padding: 9px 30px;
+  background-color: #059862;
+  color: white;
+  border: navajowhite;
+  margin-right: 10px;
+}
+
+button#nxt:hover {
+  cursor: pointer;
+  background-color: #ccc;
+  color: black;
+}
+
+button#prv {
+  padding: 9px 30px;
+  margin-right: 10px;
+  background-color: #f1f1f1;
+  color: black;
+  border: navajowhite;
+}
+
+button#prv:hover {
+  cursor: pointer;
+  background-color: #ccc;
+  color: black;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+  margin: 0;
+}
+
+/* We box the so */
+.webimg {
+  background-image: url(https://spacingtech.com/html/unimo/unimo-ltr/img/banner/about-us.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px 0px 0px 10px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.webright {
+  height: 450px;
+  width: 707px;
+  border-radius: 10px;
+}
+p.webptext {
+  font-size: 16px;
+  margin: 22px 0px;
+}
+.webimgtext {
+  margin: 0 50px;
+}
+.webright.d-flex.justify-content-center.align-items-center {
+  background-color: #f3f2ee;
+}
+h3.webtext {
+  font-size: 40px;
+  font-weight: bold;
+}
+.werbroudimg img {
+  width: 99px;
+  animation: circle 8s linear infinite;
+}
+
+@keyframes circle {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* We box the so */
+
+.webtopimg {
+  background-image: url(https://spacingtech.com/html/unimo/unimo-ltr/img/banner/banner-01.jpg);
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  text-align: left;
+  background-position: center;
+  padding: 19px;
+  border-radius: 10px;
+}
+.webbottomimg {
+  background-image: url(https://spacingtech.com/html/unimo/unimo-ltr/img/banner/banner-02.jpg);
+  width: 100%;
+  border-radius: 10px;
+
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 15px 0px 0px 280px;
+}
+.webtopimg p,
+.webbottomimg p {
+  color: #fff831;
+}
+.webtopimg h4,
+.webbottomimg h4 {
+  font-weight: bold;
+  color: white;
+}
+
+/* fature product */
+div#fcard {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.fcard {
+  width: 315px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
+.fcard-body {
+  padding: 15px;
+}
+button#fprv {
+  padding: 9px 30px;
+  margin-right: 10px;
+  background-color: #f1f1f1;
+  color: black;
+  border: navajowhite;
+}
+button#fnxt {
+  padding: 9px 30px;
+  background-color: #059862;
+  color: white;
+  border: navajowhite;
+  margin-right: 10px;
+}
+button#fprv:hover {
+  cursor: pointer;
+  background-color: #ccc;
+  color: black;
+}
+button#fnxt:hover {
+  cursor: pointer;
+  background-color: #ccc;
+  color: black;
+}
+img.fcard-img-top {
+  width: 100%;
+}
+.Featurepr {
+  background-color: #f3f2ee;
+  padding: 50px 0;
+}
+/* Customer feedback */
+.testi-left img {
+  width: 55px !important;
+}
+.testi-right img {
+  width: 55px !important;
+}
+.testi-img img {
+  width: 64px !important;
+}
+.author-img-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testi-img img {
+  display: block;
+  width: 80px;
+  margin: 20px;
+  border: 8px solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.testi-review-time {
+  text-align: center;
+}
+.author-info h6 {
+  color: #7c9b6b;
+}
+.author-info.mb-3 {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.author-info.mb-3 h6:after {
+  content: "~";
+  margin: 0px 10px;
+}
+.customer {
+  margin-bottom: 100px;
+}
+/* Customer feedback */
+/* Subscribe for */
+.newsletter-wrap {
+  background-image: url(https://spacingtech.com/html/unimo/unimo-ltr/img/newsletter/newsletter-img.png);
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  background-position: center;
+}
+.section-cont-title h2 {
+  font-size: 40px;
+  line-height: 1;
+  font-weight: bold;
+  color: white;
+  padding: 35px 0;
+}
+.section-cont-title span {
+  color: #fff831;
+}
+.news-letter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.subscribe-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button#Subscribe {
+  background-color: #333333;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 0px 10px 10px 0;
+}
+input.email.mail {
+  padding: 10px 0px 10px 30px;
+  width: 400px;
+  height: 52px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+}
+/* Subscribe for */
+/* Everyday deal */
+.deal-section {
+  margin: 100px 0;
+}
+button#eprv {
+  padding: 9px 30px;
+  margin-right: 10px;
+  background-color: #f1f1f1;
+  color: black;
+  border: navajowhite;
+}
+button#eprv:hover {
+  cursor: pointer;
+  background-color: #ccc;
+  color: black;
+}
+button#enxt {
+  padding: 9px 30px;
+  background-color: #059862;
+  color: white;
+  border: navajowhite;
+  margin-right: 10px;
+}
+button#enxt:hover {
+  cursor: pointer;
+  background-color: #ccc;
+  color: black;
+}
+.Everyday {
+  background-color: #f4f3ee;
+  padding: 100px 0;
+}
+.section-title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.ecard {
+  display: flex;
+  align-items: center;
+}
+.ecard-body {
+  margin: 0 0 0 24px;
+}
+p#dayt {
+  margin: 0;
+  text-transform: uppercase;
+}
+p#day {
+  margin: 0;
+  color: #7c9b6b;
+  font-weight: bold;
+  text-align: center;
+}
+.costumday {
+  background-color: white;
+  padding: 10px;
+  border-radius: 11px;
+  margin: 0 10px 10px 0;
+}
+p#hourt {
+  margin: 0;
+  text-transform: uppercase;
+}
+p#hour {
+  margin: 0;
+  color: #7c9b6b;
+  font-weight: bold;
+  text-align: center;
+}
+p#minutet {
+  margin: 0;
+  text-transform: uppercase;
+}
+p#minute {
+  margin: 0;
+  color: #7c9b6b;
+  font-weight: bold;
+  text-align: center;
+}
+p#secondt {
+  margin: 0;
+  text-transform: uppercase;
+}
+p#second {
+  margin: 0;
+  color: #7c9b6b;
+  font-weight: bold;
+  text-align: center;
+}
+button.Quickview_button:hover {
+  color: #ffffff !important;
+  background-color: #7c9b6b !important;
+  cursor: pointer !important;
+}
+button.Add.to.cart_button:hover {
+  color: #ffffff !important;
+  background-color: #7c9b6b !important;
+  cursor: pointer !important;
+}
+.c_border {
+  border-right: 1px solid rgba(128, 128, 128, 0.2);
+}
+.both_inner i {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+i.fa-regular.fa-heart:hover {
+  background-color: #7c9b6b;
+  cursor: pointer;
+  color: white;
+}
+/* Everyday deal */
+/* Every latest blog */
+.btn-style2 span{
+  color: white;
+  font-size: 16px;
+  padding: 18px 25px;
+  background-color:#7c9b6b;
+  border: 2px solid #7c9b6b ;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+.hoop{
+  display: flex ;
+  z-index: 1 ;
+  justify-content: space-between;
+}
+.blog-left{
+  width: 430px;
+  height: 229px;
+}
+.blog-left img{
+  width: 100%;
+}
+.item {
+  background-color: #F3F2EE;
+  border-radius: 10px;
+}
+.blog-under {
+  padding: 29px;
+}
+/* Every latest blog */
+/* footer */
+ul.footer-extra-area {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.info-box i{ 
+  color: var(--font-color-primary);
+    font-size: 22px;
+    width: 85px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 100%;
+    line-height: 0;
+
+}
+.info-block {
+  display: flex;
+  align-items: center;
+}
+
+/* footer */
+/* oncroll */
+.scrol {
+  position: fixed;
+  right: 2%;
+  bottom: 9%;
+}
+button.scollbtndesign {
+  background-color: #059862;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+}
+/* oncroll */
